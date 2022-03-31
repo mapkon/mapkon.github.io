@@ -1,6 +1,8 @@
 ## Welcome Mark Gerard's Blog
 
-Here, you will find the thoughts of a predicate felon? Probably thoughts of a itinerant engineer with some whacky and questionable experiences around the world.
+Here, you will find the thoughts of a predicate felon? Probably thoughts of an itinerant engineer with some whacky and questionable experiences around the world.
+
+But that is not why I am really blogging, the motivations are varied, but we can drill them thus ...
 
 ## Motivation
 

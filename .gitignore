@@ -1,3 +1,10 @@
+# Build directory
+out
+
+# OSX dir folders
+.DS_Store
+
+# Java build artefacts
 pom.xml
 pom.xml.asc
 *.jar
@@ -6,6 +13,8 @@ pom.xml.asc
 /classes/
 /target/
 /checkouts/
+
+# lein artefacts
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/

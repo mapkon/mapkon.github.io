@@ -1,8 +1,12 @@
 # Build directory
 out
+docs/js/cljs-runtime
 
-# node modules directory
+# Node modules directory
 node_modules
+
+# Shadow generated artefacts
+.shadow-cljs/
 
 # OSX dir folders
 .DS_Store

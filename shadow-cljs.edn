@@ -1,0 +1,16 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[reagent "0.10.0"]
+  [org.clojure/core.async "0.4.500"]]
+
+ :dev-http {8080 "public/"}
+ :builds {:mapkon-blog {:asset-path "."
+                          :output-dir "public/js"
+                          :target :browser
+                          :modules {:core {:init-fn core/main!}}
+                          :devtools {:after-load core/reload!
+                                     :http-root "public"
+                                     :http-port 8080}}}}

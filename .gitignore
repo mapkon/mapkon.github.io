@@ -1,5 +1,6 @@
 # Build directory
 out
+docs/js/app.js
 docs/js/cljs-runtime
 
 # Node modules directory

@@ -7,7 +7,7 @@
 
 (defn mount [comp]
   (rdom/render [comp]
-  (.getElementById js/document "app")))
+               (.getElementById js/document "app")))
 
 (defn main! []
   (mount home-component)

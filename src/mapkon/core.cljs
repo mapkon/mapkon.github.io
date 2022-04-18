@@ -15,4 +15,4 @@
 
 (defn reload! []
   (mount home-component)
-  (print "App reloaded successfully mutation"))
+  (print "App reloaded successfully ..."))

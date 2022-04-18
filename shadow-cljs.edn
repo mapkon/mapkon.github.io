@@ -11,6 +11,6 @@
                           :output-dir "docs/js"
                           :target :browser
                           :modules {:app {:init-fn mapkon.core/main!}}
-                          :devtools {:after-load mapkon.corey/reload!
+                          :devtools {:after-load mapkon.core/reload!
                                      :http-root "docs"
                                      :http-port 8080}}}}
